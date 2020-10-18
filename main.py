@@ -118,7 +118,7 @@ class YoutubeAPP:
         window.geometry('940x600+320+90')
         window.title('Youtube*Downloader')
         window.resizable(False,False)
-        icon = tk.PhotoImage(file=r"icons/icon1.png")
+        icon = tk.PhotoImage(file=r"icons/icon2.png")
         window.tk.call("wm",'iconphoto',window._w,icon)
         window.configure(background='#ffe8e8')
 
